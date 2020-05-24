@@ -33,3 +33,4 @@
 
 # Visual Studio Files
 .vs/*
+bin/*
