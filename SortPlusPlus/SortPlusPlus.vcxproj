@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Log.cpp" />
     <ClCompile Include="src\CustomSwap.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\QuickSort.cpp" />
