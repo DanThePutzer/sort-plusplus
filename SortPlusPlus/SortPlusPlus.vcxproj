@@ -147,14 +147,15 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Log.cpp" />
+    <ClCompile Include="src\BubbleSort.cpp" />
+    <ClCompile Include="src\Log.cpp" />
     <ClCompile Include="src\CustomSwap.cpp" />
     <ClCompile Include="src\Main.cpp" />
     <ClCompile Include="src\QuickSort.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Auxiliary.h" />
-    <ClInclude Include="src\SortFunctions.h" />
+    <ClInclude Include="src\Header\Auxiliary.h" />
+    <ClInclude Include="src\Header\SortFunctions.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

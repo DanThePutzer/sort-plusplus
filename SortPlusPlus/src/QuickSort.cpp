@@ -1,5 +1,4 @@
-#include <iostream>
-#include "Auxiliary.h"
+#include "Header/Auxiliary.h"
 
 int partitioning(int array[], int bottom, int top)
 {

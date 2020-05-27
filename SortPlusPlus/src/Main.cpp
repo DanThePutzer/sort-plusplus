@@ -1,6 +1,8 @@
 #include <iostream>
-#include "SortFunctions.h"
-#include "Auxiliary.h"
+#include <chrono>
+
+#include "Header/SortFunctions.h"
+#include "Header/Auxiliary.h"
 
 int main() {
 	// Test Array
@@ -8,6 +10,9 @@ int main() {
 
 	// Calling quickSort function
 	quickSort(test, 0, 8);
+
+	// Calling bubbleSort function
+	bubbleSort(test, 9);
 
 	// Logging inplace-sorted array
 	logArray(test, 9);
