@@ -8,7 +8,7 @@ int partitioning(int array[], int bottom, int top)
 	int pivot = array[pivotIndex];
 
 	// Swaping pivot into first place of the array
-	customSwap(&array[bottom], &array[pivotIndex]);
+	customSwap(array[bottom], array[pivotIndex]);
 
 	// Defining borderIndex, starts out index 0 of current partition
 	int borderIndex = bottom;
@@ -22,7 +22,7 @@ int partitioning(int array[], int bottom, int top)
 			// Incrementing border index
 			borderIndex++;
 			// Border and item trade place
-			customSwap(&array[i], &array[borderIndex]);
+			customSwap(array[i], array[borderIndex]);
 		}
 	}
 
@@ -38,7 +38,7 @@ void quickSort(int array[], int bottom, int top)
 		// Retrieving border index
 		int borderIndex = partitioning(array, bottom, top);
 		// Swaping pivot and border
-		customSwap(&array[bottom], &array[borderIndex]);
+		customSwap(array[bottom], array[borderIndex]);
 
 		// Recursively calling quickSort function for partitions
 		quickSort(array, bottom, borderIndex - 1);

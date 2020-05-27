@@ -2,4 +2,4 @@
 
 void logInteger(int integer[]);
 void logArray(int array[], int size);
-void customSwap(int* el1, int* el2);
+void customSwap(int& el1, int& el2);
