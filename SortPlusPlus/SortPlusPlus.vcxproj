@@ -147,6 +147,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="src\MergeSort.cpp" />
     <ClCompile Include="src\BubbleSort.cpp" />
     <ClCompile Include="src\Log.cpp" />
     <ClCompile Include="src\CustomSwap.cpp" />
