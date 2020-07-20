@@ -14,7 +14,7 @@ Currently the following sorting algorithms have been implemented and documented:
 
 All are working in-place without auxiliary arrays.
 
-## Installation
+### Installation & Usage
 
 This code is being developed in Visual Studio Community 2019 and, therefore, has a project structure with files specific to Visual Studio. The raw C++ code can be found in the **/src** directory, so feel free to use your IDE of choice. As the purpose of this little exercise is to write some simple algorithms from scratch, there are no third-party dependencies.
 
