@@ -1,10 +1,10 @@
-# SortPlusPlus
+# sort-plusplus
 
-Implementing various sort algorithms in C++ to practice.
+A collection of popular sorting algorithms implemented in C++ as a first little practice exercise to get familiar with the basics of the language. After working with lots of fairly high-level languages (JavaScript, Python etc.) I wanted to dig a little deeper and work my way into native languages. Given that I am always looking to get deeper into machine learning and AI, C++ was a great candidate. Many Python packages and deep learning frameworks such as PyTorch or Tensorflow are written in C++.
 
-The goal is to get familiar with the language as well as the file structure of projects, common errors and how to make things run efficiently.
+![Sorting Algorithms](https://user-images.githubusercontent.com/25454503/87913900-225eaf80-ca70-11ea-8bc6-239f5137be70.png)
 
-## Implemented Algorithms
+### Implemented Algorithms
 
 Currently the following sorting algorithms have been implemented and documented:
 
@@ -12,15 +12,11 @@ Currently the following sorting algorithms have been implemented and documented:
 - **MergeSort**
 - **BubbleSort**
 
-All are working inplace without auxiliary arrays.
+All are working in-place without auxiliary arrays.
 
 ## Installation
 
-This code is being developed in Visual Studio Community 2019 and, therefore has a project structure with files specific to Visual Studio. The raw C++ code can be found in the **/src** directory, so feel free to use your IDE of choice. As the purpose of this little exercise is to write some simple algorithms from scratch, there are no dependencies you need to install.
-
-## Usage
-
-To be able to run the code, you'll need to compile it yourself. This should be fairly easy in any IDE.
+This code is being developed in Visual Studio Community 2019 and, therefore, has a project structure with files specific to Visual Studio. The raw C++ code can be found in the **/src** directory, so feel free to use your IDE of choice. As the purpose of this little exercise is to write some simple algorithms from scratch, there are no third-party dependencies.
 
 &nbsp;
 
